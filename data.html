@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+
+    <style> * { font-size: 1.2em; font-family: Arial; } </style>
+    <h1>Select Bus</h1>
+    <select id="selectBus" onchange="allData()"></select>
+    <script src = "db_3.json"></script>
+    <div id="allBusData"></div>
+
+    <script>
+
+
+    var busID = busData.vehicles.map(vehicle => vehicle.id);
+
+    var uniqueID = [];
+    busID.forEach(function(item){
+        if (!uniqueID.includes(item)){
+        uniqueID.push(item);
+    }
+    })
+
+    var selectBus  = document.getElementById('selectBus');
+    
+    uniqueID.forEach(function(item){
+        var option = document.createElement('option')
+        option.value = item;
+        option.innerHTML = item;
+        selectBus.appendChild(option)
+    })
+        
+    var allData = function(){
+        var bus = [];
+        var busSelected = document.getElementById("selectBus").options[document.getElementById("selectBus").selectedIndex].value;
+        busData.vehicles.forEach(function(item){
+            if(item.id === busSelected){
+             bus.push(item)
+            }
+        })
+        console.log(bus)
+        allBusData = document.getElementById('allBusData');
+        allBusData.innerHTML = JSON.stringify(bus)
+    }
+
+
+
+   </script>
+
+</html>

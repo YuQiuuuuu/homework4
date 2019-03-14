@@ -1,0 +1,904 @@
+var busData = {
+  "vehicles": [
+    {
+      "attributes": {
+        "bearing": 130,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 11,
+        "direction_id": 1,
+        "label": "1715",
+        "latitude": 42.36365509033203,
+        "longitude": -71.10081481933594,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:33-04:00"
+      },
+      "id": "y1715",
+      "links": {
+        "self": "/vehicles/y1715"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "73",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366079",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 148,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": null,
+        "direction_id": 0,
+        "label": "1772",
+        "latitude": 42.35655212402344,
+        "longitude": -71.12018585205078,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:35-04:00"
+      },
+      "id": "y1772",
+      "links": {
+        "self": "/vehicles/y1772"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": null
+        },
+        "trip": {
+          "data": {
+            "id": "39366083",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 121,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 1,
+        "direction_id": 1,
+        "label": "1786",
+        "latitude": 42.32985305786133,
+        "longitude": -71.08428192138672,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:32-04:00"
+      },
+      "id": "y1786",
+      "links": {
+        "self": "/vehicles/y1786"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "64",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366081",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 314,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 9,
+        "direction_id": 0,
+        "label": "1788",
+        "latitude": 42.33903884887695,
+        "longitude": -71.07999420166016,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:31-04:00"
+      },
+      "id": "y1788",
+      "links": {
+        "self": "/vehicles/y1788"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "87",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366250",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 90,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 5,
+        "direction_id": 0,
+        "label": "1791",
+        "latitude": 42.33137893676758,
+        "longitude": -71.07716369628906,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:29-04:00"
+      },
+      "id": "y1791",
+      "links": {
+        "self": "/vehicles/y1791"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "10003",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366080",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 135,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 18,
+        "direction_id": 1,
+        "label": "1792",
+        "latitude": 42.34156036376953,
+        "longitude": -71.08325958251953,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:02-04:00"
+      },
+      "id": "y1792",
+      "links": {
+        "self": "/vehicles/y1792"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "187",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366078",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 112,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 12,
+        "direction_id": 1,
+        "label": "1821",
+        "latitude": 42.36106872558594,
+        "longitude": -71.0960922241211,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:33-04:00"
+      },
+      "id": "y1821",
+      "links": {
+        "self": "/vehicles/y1821"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "74",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366185",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": null,
+        "direction_id": 1,
+        "label": "1822",
+        "latitude": 42.34061050415039,
+        "longitude": -71.05853271484375,
+        "speed": null,
+        "updated_at": "2019-03-12T19:27:59-04:00"
+      },
+      "id": "y1822",
+      "links": {
+        "self": "/vehicles/y1822"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": null
+        },
+        "trip": {
+          "data": {
+            "id": "39366247",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 307,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 21,
+        "direction_id": 0,
+        "label": "1847",
+        "latitude": 42.367671966552734,
+        "longitude": -71.10742950439453,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:30-04:00"
+      },
+      "id": "y1847",
+      "links": {
+        "self": "/vehicles/y1847"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "106",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366106",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 318,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 18,
+        "direction_id": 0,
+        "label": "1867",
+        "latitude": 42.36354446411133,
+        "longitude": -71.10057830810547,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:34-04:00"
+      },
+      "id": "y1867",
+      "links": {
+        "self": "/vehicles/y1867"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "101",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366093",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 9,
+        "direction_id": 0,
+        "label": "1879",
+        "latitude": 42.339630126953125,
+        "longitude": -71.08058166503906,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:30-04:00"
+      },
+      "id": "y1879",
+      "links": {
+        "self": "/vehicles/y1879"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "87",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366116",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 19,
+        "direction_id": 1,
+        "label": "1895",
+        "latitude": 42.340946197509766,
+        "longitude": -71.08207702636719,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:33-04:00"
+      },
+      "id": "y1895",
+      "links": {
+        "self": "/vehicles/y1895"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "83",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366159",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 126,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 11,
+        "direction_id": 1,
+        "label": "1715",
+        "latitude": 42.36302947998047,
+        "longitude": -71.09986877441406,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:47-04:00"
+      },
+      "id": "y1715",
+      "links": {
+        "self": "/vehicles/y1715"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "73",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366079",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 155,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": null,
+        "direction_id": 0,
+        "label": "1772",
+        "latitude": 42.354923248291016,
+        "longitude": -71.1185531616211,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:51-04:00"
+      },
+      "id": "y1772",
+      "links": {
+        "self": "/vehicles/y1772"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": null
+        },
+        "trip": {
+          "data": {
+            "id": "39366083",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 1,
+        "direction_id": 1,
+        "label": "1786",
+        "latitude": 42.329856872558594,
+        "longitude": -71.0841293334961,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:44-04:00"
+      },
+      "id": "y1786",
+      "links": {
+        "self": "/vehicles/y1786"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "64",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366081",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 325,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 9,
+        "direction_id": 0,
+        "label": "1788",
+        "latitude": 42.34004592895508,
+        "longitude": -71.08102416992188,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:50-04:00"
+      },
+      "id": "y1788",
+      "links": {
+        "self": "/vehicles/y1788"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "87",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366250",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 51,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 5,
+        "direction_id": 0,
+        "label": "1791",
+        "latitude": 42.33176040649414,
+        "longitude": -71.07615661621094,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:51-04:00"
+      },
+      "id": "y1791",
+      "links": {
+        "self": "/vehicles/y1791"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "10003",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366080",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 135,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 19,
+        "direction_id": 1,
+        "label": "1792",
+        "latitude": 42.341129302978516,
+        "longitude": -71.08258819580078,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:34-04:00"
+      },
+      "id": "y1792",
+      "links": {
+        "self": "/vehicles/y1792"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "83",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366078",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 131,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 12,
+        "direction_id": 1,
+        "label": "1821",
+        "latitude": 42.36069107055664,
+        "longitude": -71.09581756591797,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:45-04:00"
+      },
+      "id": "y1821",
+      "links": {
+        "self": "/vehicles/y1821"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "74",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366185",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": null,
+        "direction_id": 1,
+        "label": "1822",
+        "latitude": 42.34061050415039,
+        "longitude": -71.05853271484375,
+        "speed": null,
+        "updated_at": "2019-03-12T19:27:59-04:00"
+      },
+      "id": "y1822",
+      "links": {
+        "self": "/vehicles/y1822"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": null
+        },
+        "trip": {
+          "data": {
+            "id": "39366247",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 21,
+        "direction_id": 0,
+        "label": "1847",
+        "latitude": 42.368324279785156,
+        "longitude": -71.10850524902344,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:50-04:00"
+      },
+      "id": "y1847",
+      "links": {
+        "self": "/vehicles/y1847"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "106",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366106",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 310,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 19,
+        "direction_id": 0,
+        "label": "1867",
+        "latitude": 42.36433410644531,
+        "longitude": -71.1018295288086,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:50-04:00"
+      },
+      "id": "y1867",
+      "links": {
+        "self": "/vehicles/y1867"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "102",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366093",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 0,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 9,
+        "direction_id": 0,
+        "label": "1879",
+        "latitude": 42.339637756347656,
+        "longitude": -71.08059692382812,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:42-04:00"
+      },
+      "id": "y1879",
+      "links": {
+        "self": "/vehicles/y1879"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "87",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366116",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    },
+    {
+      "attributes": {
+        "bearing": 138,
+        "current_status": "IN_TRANSIT_TO",
+        "current_stop_sequence": 19,
+        "direction_id": 1,
+        "label": "1895",
+        "latitude": 42.340171813964844,
+        "longitude": -71.08126831054688,
+        "speed": null,
+        "updated_at": "2019-03-12T19:28:49-04:00"
+      },
+      "id": "y1895",
+      "links": {
+        "self": "/vehicles/y1895"
+      },
+      "relationships": {
+        "route": {
+          "data": {
+            "id": "1",
+            "type": "route"
+          }
+        },
+        "stop": {
+          "data": {
+            "id": "83",
+            "type": "stop"
+          }
+        },
+        "trip": {
+          "data": {
+            "id": "39366159",
+            "type": "trip"
+          }
+        }
+      },
+      "type": "vehicle"
+    }
+  ]
+}

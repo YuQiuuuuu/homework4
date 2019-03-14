@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+
+    <style> * { font-size: 1.2em; font-family: Arial; } </style>
+    <h1>Select Bus</h1>
+    <select id="selectBus"></select>
+    <script src = "db_3.json"></script>
+
+    <script>
+
+
+    var busID = busData.vehicles.map(vehicle => vehicle.id);
+
+    var uniqueID = [];
+    busID.forEach(function(item){
+        if (!uniqueID.includes(item)){
+        uniqueID.push(item);
+    }
+    })
+
+    var selectBus  = document.getElementById('selectBus');
+    
+    uniqueID.forEach(function(item){
+        var option = document.createElement('option')
+        option.value = item;
+        option.innerHTML = item;
+        selectBus.appendChild(option)
+    })
+        
+
+
+
+   </script>
+
+</html>
+
+
+
+
+
+
+
+<!-- <body>
+    <style> * { font-size: 1.2em; font-family: Arial; } </style>
+
+    <div class="col-md-4">
+    <form>
+    <h4>Select Bus</h4>
+    <select class="form-control"  id='selectBus' name='selectBus' onClick="getBusID()">
+    </select>
+     
+    </form>
+    </div>
+</body> -->
